@@ -1,0 +1,133 @@
+/* * {
+  outline: 1px solid black;
+} */
+
+.digitalization_sales {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: 70% 30%;
+  gap: 20px;
+  max-width: 1440px;
+  margin: 0 auto;
+  justify-content: start;
+  overflow: hidden;
+  position: relative;
+}
+
+h1 {
+    font-family: system-ui;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 54px;
+    text-align: left;
+}
+
+span {
+    color: #6D5BF7;
+}
+
+ul {
+    font-family: system-ui;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+    color: #6D5BF7;
+    padding: 1px;
+    list-style: none;
+}
+
+.title_time {
+  max-width: 370px;
+  position: relative;
+  margin-left: 40px;
+
+}
+
+.title_effectiveness {
+  max-width: 470px;
+  position: relative;
+  margin-left: 40px;
+
+}
+
+.title_audience {
+max-width: 405px;
+position: relative;
+margin-left: 40px;
+
+}
+
+.mark {
+  position: absolute;
+  margin-top: 8px;
+}
+
+blockquote {
+  font-family: system-ui;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  position: relative;
+  padding: 0px;
+  margin: auto;
+}
+
+blockquote::before {
+    content: url(/images/comma.png);
+    position: absolute;
+    width: 38px;
+    height: 32px;
+    left: 0px;
+    bottom: -24px;
+  }
+
+  blockquote::after {
+    content: url(/images/comma\ \(rotated\).png);
+    position: absolute;
+    top: -30px;
+    right: 0px;
+  }
+
+  .vector {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(50%);
+    z-index: -2;
+  }
+
+  .frame {
+    grid-row: span 2;
+    max-width: 650px;
+    object-fit: contain;
+    margin-bottom: 15px;
+  }
+
+  .ellipse1 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: -1;
+    max-width: 650px;
+  }
+
+  .ellipse2 {
+    top: 44%;
+    position: absolute;
+    z-index: -2;
+    rotate: 187deg;
+    left: 38%;
+  }
+
+  .watermark {
+    font-family: system-ui;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: right;
+    color: #658EC3;
+    position: relative;
+    margin-right: 95px;
+  }
