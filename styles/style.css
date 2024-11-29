@@ -75,7 +75,7 @@ blockquote {
 }
 
 blockquote::before {
-    content: url(/images/comma.png);
+    content: url(/assets/comma.png);
     position: absolute;
     width: 38px;
     height: 32px;
@@ -84,7 +84,7 @@ blockquote::before {
   }
 
   blockquote::after {
-    content: url(/images/comma\ \(rotated\).png);
+    content: url(/assets/comma\ \(rotated\).png);
     position: absolute;
     top: -30px;
     right: 0px;
